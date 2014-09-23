@@ -112,7 +112,7 @@ angular.module('smoothScroll', [])
 						callbackAfter: callbackAfter
 					});
 
-					return false;
+					return true;
 				}
 			});
 		}
